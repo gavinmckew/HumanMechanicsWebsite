@@ -1,0 +1,429 @@
+﻿body {
+	background-color: #F8F9FA;
+}
+
+.nav-link {
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 8px;
+	color: #200D23;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+	font-weight: 500;
+	border-bottom: 2px solid #F8F9FA;
+}
+.nav-link:hover {
+	color: #705D73;
+	border-bottom: 2px solid #705D73;
+}
+.navbar-toggler {
+	border: 2px solid;
+}
+.navbar {
+	border-bottom: 2px solid #705D73;
+}
+.navburger {
+	margin-left: -35px;
+}
+#Splash {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -1;
+	margin: auto;
+	margin: auto;
+}
+.banner {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+	z-index: -1;
+	margin: auto;
+	margin: auto;
+}
+.BelowBanner {
+	position: absolute;
+	top: 50%;
+}
+
+.bannerTitle {
+	position: relative;
+	top: 200px;
+	text-align: center;
+	color: #F8F9FA;
+	font-size: 75pt;
+	font-weight: 750;
+}
+
+.SplashLogo {
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	margin-top: -360px;
+}
+.SplashLogo img {
+	height: 800px;
+}
+/*Banners*/
+@media only screen and (max-width: 1100px) {
+	.banner img {
+		height: 100%;
+	}
+}
+@media only screen and (min-width: 1100px) {
+	.banner img {
+		width: 100%;
+	}
+}
+/*Home Splash*/
+@media only screen and (max-width: 1330px) {
+	#Splash img {
+		height: 100%;
+	}
+}
+@media only screen and (min-width: 1330px) {
+	#Splash img {
+		width: 100%;
+	}
+}
+.icon {
+	position: absolute;
+	bottom: 22px;
+	width: 32px;
+	height: 32px;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+	border-radius: 2px;
+}
+#FacebookIcon {
+	position: relative;
+	left: 25px;
+}
+
+#FacebookIcon:hover {
+	background-color: #3B569D;
+}
+#TwitterIcon {
+	position: relative;
+	left: 65px;
+}
+
+#TwitterIcon:hover {
+	background-color: #28AAE1;
+}
+
+#YoutubeIcon {
+	position: relative;
+	left: 145px;
+}
+
+#YoutubeIcon:hover {
+	background-color: #F80000;
+}
+#InstaIcon {
+	position: relative;
+	left: 105px;
+}
+
+#InstaIcon:hover {
+	background-image: url("../Images/instagrambg.png");
+}
+.introduction {
+	position: absolute;
+	top:100%;
+}
+.content {
+	margin: 70px;
+}
+.Title {
+	font-family: arial;
+	font-weight: 1000;
+	font-size: 35pt;
+	color: #480D23;
+}
+.BoxTitle {
+	font-family: arial;
+	font-weight: 1000;
+	font-size: 25pt;
+	color: #480D23;
+	margin: 20px;
+}
+.TitleWhite {
+	font-family: arial;
+	font-weight: 1000;
+	font-size: 35pt;
+	color: #F8F9FA;
+}
+.SubTitle {
+	font-family: arial;
+	font-weight: 800;
+	font-size: 25pt;
+	color: #480D23;
+}
+.SubTitleWhite {
+	font-family: arial;
+	font-weight: 800;
+	font-size: 25pt;
+	color: #F8F9FA;
+}
+.WhiteButton {
+	color: #480D23;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 10px;
+	border: 2px solid #480D23;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.WhiteButton:hover {
+	color: #F8F9FA;
+	background-color: #480D23;
+	text-decoration: none;
+}
+.PurpleButton {
+	color: #F8F9FA;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 10px;
+	border: 2px solid #F8F9FA;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.PurpleButton:hover {
+	color: #480D23;
+	background-color: #F8F9FA;
+	text-decoration: none;
+}
+.paragraphPurple {
+	color: #480D23;
+}
+.paragraphWhite {
+	color: #F8F9FA;
+}
+.DanIntroImg {
+	margin: 70px;
+	position: relative;
+	left: 50%;
+	margin-left: -143px;
+}
+.EventsImg {
+	position: relative;
+	left: 50%;
+	margin-left: -255px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	width: 431px;
+}
+.purple {
+	background-image: linear-gradient(to right, #4B0D23 , #160016);
+	background-color: #200D23;
+}
+.Partners {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+.contactForm {
+	width: 750px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.FirstBox {
+	margin-top: 70px;
+}
+#Message {
+	min-height: 200px;
+}
+.submit-button {
+	color: #F8F9FA;
+	width: 100px;
+	padding: 5px;
+	background-color: #480D23;
+	font-family: arial;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+	font-weight: 700;
+	border: 2px solid #F8F9FA;
+	margin-left: 70px;
+	margin-bottom: 70px;
+}
+.submit-button:hover {
+	color: #480D23;
+	background-color: #F8F9FA;
+}
+.footer {
+	margin: 25px;
+}
+.footerLink {
+	color: #200D23;
+}
+.footerLink:hover {
+	text-decoration: underline;
+	color: #200D23;
+}
+.footerLinkWhite {
+	color: #F8F9FA;
+}
+.footerLinkWhite:hover {
+	text-decoration: underline;
+	color: #F8F9FA;
+}
+.WhiteBG {
+	background-color: #F8F9FA;
+}
+.WhiteBGAff {
+	background-color: #fff;
+}
+.ServiceBox {
+	min-height: 600px;
+	min-width: 295px;
+	margin: 50px 30px;
+	text-align: center;
+	padding-bottom: 50px;
+	box-shadow: 5px 7px 10px 5px rgba(0, 0, 0, 0.2), 2px 2px 5px 2px rgba(0, 0, 0, 0.19);
+}
+.ServiceBox img {
+	width: 100%;
+}
+.ServiceBox p {
+	padding: 0px 10px;
+}
+.ServicesImg img {
+	position: absolute;
+	top: 135px;
+	width: 90%;
+	margin: 2.5% 1%;
+}
+.ServicesText {
+	margin-top: 100px;
+	padding: 2%;
+}
+.footerPos {
+	position: absolute;
+	top: 100%;
+	left:0px;
+	width: 100%;
+}
+#acadTitle {
+	margin-top: -10px;
+	font-size: 75pt;
+	font-weight: 750;
+}
+.acadLink {
+	text-align: center;
+	margin: 25px;
+	font-weight: 500;
+	font-size: 13pt;
+}
+.acadLink a {
+	color: #200D23;
+	padding: 15px;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+	border-bottom: 2px solid #fff;
+}
+.acadLink a:hover {
+	text-decoration: none;
+	color: #480D23;
+	border-bottom: 2px solid #480D23;
+}
+#backToTop {
+	position: fixed;
+	bottom: 12px;
+	right: 20px;
+	color: #F8F9FA;
+	background-color: #160016;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 10px;
+	border: 2px solid #F8F9FA;
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+	z-index: 5;
+}
+#backToTop:hover {
+	color: #160016;
+	background-color: #F8F9FA;
+	text-decoration: none;
+	border: 2px solid #160016;
+}
+.purpleBorderBottom {
+	border-bottom: 2px solid #4B0D23;
+}
+
+#WhyChooseUs {
+	text-align: center;
+}
+.ContactSocials {
+	margin: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-link {
+	font-size: 8pt;
+	padding: 10px;
+	margin: 0px;
+  }
+  .contactForm {
+  	  width: 70%;
+  }
+  .SplashLogo {
+	margin-top: -280px;
+}
+  .SplashLogo img {
+  	  height: 600px;
+  }
+  .BannerSubTitle {
+  	  font-size: 40pt;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .SplashLogo {
+	margin-top: -190px;
+}
+  .SplashLogo img {
+  	  height: 400px;
+  }
+  .Title {
+  	  font-size: 30pt;
+  }
+  .TitleWhite {
+  	  font-size: 30pt;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  #acadTitle {
+	font-size: 60pt;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  #acadTitle {
+	font-size: 40pt;
+  }
+}
